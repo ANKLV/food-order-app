@@ -12,7 +12,7 @@ const Header = props => {
               <HeaderCartButton/>
           </header>
           <div className={classes['main-image']}>
-              <img scr={mealsImage} alt='A table full of delicious food!' />
+              <img src={mealsImage} alt='A table full of delicious food!' />
           </div>
       </Fragment>
   );
